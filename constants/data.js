@@ -1,11 +1,11 @@
 const userData = {
   githubUsername: "akshay1027",
   name: "Akshay R R",
-  designation: "Full Stack Engineer",
+  designation: "Tech Lead, Backend Engineering",
   avatarUrl: "/avatar.jpg",
   email: "akshayar1027@gmail.com",
   phone: "+91 8056701263",
-  address: "Pondicherry, India",
+  address: "Bangalore, India",
   projects: [
     {
       title: "Zerodha Kite Clone",
@@ -76,22 +76,53 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a Full Stack software engineer who loves building and tinkering with software and technology.",
+      "Tech Lead who took over the CTO's primary product line and scaled it to 90% of company revenue. I build outcome-focused engineers who leverage AI tools to ship faster—not coders who happen to use AI.",
     description: [
-      `A self-taught developer who likes to solve interesting and challenging problems.`,
-      `I thrive on self-motivation and excel at articulating loosely defined ideas/problems into solid requirements, delivering code and getting things done, on time. I relish the opportunity to work on development projects at every stage.`,
-      `My journey started in may of 2020 (2nd year of engineering), I developed my first web page. Since then, even though am doing my majors in ECE, have always hustled and found time for myself to do programming and build projects along with managing college assignments, records and exams. Covid played a huge part in me learning all these technologies, as classes were online, I was fully able to focus on programming, am thankful for that.`,
-      `Am always ready to upskill myself and learn new technologies. I'm that guy who can build a product and get things done on time. Hire me and unleash our potential together, you won't regret it.`,
-      `I've been programming and building applications in Python, Elixir, Javascript, Typescript, Go, DRF, Phoenix, NodeJs, ExpressJs, RabbitMQ, Celery, MongoDB, PostgreSQL, Ecto, Mongoose, ReactJs, NextJS, HTML, CSS, Material UI, Tailwind.`,
+      `I'm a product-minded engineer with 2.7 years of experience building revenue-critical systems that process $8.6M+ monthly. Started as a Founding Backend Engineer at Hotelzify and scaled to Tech Lead, managing a team of 5 engineers while maintaining hands-on technical contribution.`,
+      `My unfair advantage? I focus on outcomes over syntax. I've shipped production code in Node.js, Python, and Elixir—choosing the right tool for the problem, not the other way around. Led my team's adoption of AI agents (Cursor, LLM-assisted coding) and practice spec-driven development: define outcomes first, then use the best tool—AI, code, or both.`,
+      `I build autonomous systems: self-healing reconciliation bots (99%+ accuracy), intelligent pricing algorithms, and event-driven architectures that reduced price inaccuracies by 88%. Achieved <200ms p95 latency on user-facing APIs through strategic denormalization, caching, and query optimization. Automated 45+ hours/month of manual operations across teams.`,
+      `Product ownership is in my DNA. I don't just build features—I bridge business stakeholders with technical execution, transform requirements into technical roadmaps, and drive engineering decisions from architecture to deployment. Led 15+ complex integrations across payments, AdTech, and metasearch connectivity while reducing enterprise B2B integration timelines.`,
+      `Recognized as Performer of the Year 2025 (33% of organization-wide votes). Consistently exceeded expectations at every role—top intern at Wealthy (earned full-time offer among 8), built 2,700+ dynamic pages at Dhanlap. In the AI-augmented era, I believe LLMs amplify builders, not coders.`,
+      `Looking for remote backend or full-stack engineering roles at growth-stage startups where I can own revenue-critical systems, mentor engineers, and bring 0→1 product ownership. Let's build something impactful together.`,
     ],
     // currentProject: "Zerodha Kite clone",
     // currentProjectUrl: "https://tailwindmasterkit.com",
   },
   experience: [
     {
+      title: "Tech Lead (Founding Engineer)",
+      company: "Hotelzify",
+      year: "Jun 2023 - Present",
+      companyLink: "https://hotelzify.com/",
+      desc: [
+        '• Scaled from Founding Backend Engineer to Tech Lead, taking full ownership of the company\'s primary product line (previously managed by the CTO).',
+        '• Manage and mentor a team of 5 engineers, drive engineering decisions, detailed design specs, code reviews, and sprint planning.',
+        '• Architected and own 4 core revenue systems (Booking Engine, Price Parity Engine, Google Hotel Center & Ads, Channel Manager) powering 90% of company revenue and processing $8.6M+ in monthly booking value.',
+        '• Achieved <200ms p95 latency on user-facing APIs through strategic denormalization, query optimization, indexing, and caching.',
+        '• Refactored system to event-driven architecture reducing price inaccuracies by 88% and achieving 22% increase in impressions.',
+        '• Led technical execution of 30+ production features and 15+ integrations across payments (Razorpay, Paytring), AdTech (Google Ads), metasearch connectivity (Skyscanner, TripAdvisor, Wego).',
+        '• Automated hotelier and guest escalations, eliminating 45+ hours/month of manual operations across support team.',
+        '• Led integration of AI agents (Cursor, LLM-assisted coding) into team workflow and mentored engineers on spec-driven development.',
+        '• Voted Performer of the Year 2025 (33% of organization-wide votes).',
+        '• Tech Stack: Node.js, MySQL, MongoDB, JavaScript, AWS (SQS, S3, RDS, Lambda, API Gateway, CloudFront, EC2, CodePipeline), GCP (Cloud Functions, Cloud Scheduler), Redis, Docker, Sentry, Retool, Git.'
+      ]
+    },
+    {
+      title: "Backend Engineer Intern",
+      company: "Wealthy (Buildwealth Tech Pvt Ltd)",
+      year: "Apr 2023 - May 2023",
+      companyLink: "https://wealthy.in/",
+      desc: [
+        '• Contributed to the Mutual Funds Tracker microservice. Built the migration of fund tracking via MF Central APIs.',
+        '• Built a wrapper class to use Postgres with FastAPI and Celery.',
+        '• Earned a full-time offer as the top performing engineer among 8 interns.',
+        '• Tech Stack: Python, Django, FastAPI, Celery, Postgres, Metabase.'
+      ]
+    },
+    {
       title: "Full Stack Engineer Intern",
       company: "Dhanlap | Ark Neo financial services",
-      year: "Feb 2023 - April 2023",
+      year: "Feb 2023 - Apr 2023",
       companyLink: "https://dhanlap.com/",
       desc: [
         '• Scraped, parsed over the web to extract 2.5k mutual funds data',
