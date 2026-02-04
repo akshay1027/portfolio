@@ -40,7 +40,7 @@ export default function Experience() {
 
 const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
   return (
-    <div className="relative p-4 rounded-md dark:shadow-gray-700 shadow-xl dark:shadow-2xl bg-white dark:bg-gray-800 z-10 mx-4">
+    <div className="relative p-5 rounded-md dark:shadow-gray-700 shadow-xl dark:shadow-2xl bg-white dark:bg-gray-800 z-10 mx-4">
       <h1 className="absolute -top-7 md:-left-10 sm:-top-10 text-md sm:text-2xl text-gray-500 font-bold dark:text-gray-500">
         {year}
       </h1>
@@ -48,14 +48,13 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
       <a href={companyLink} className="text-gray-500">
         {company}
       </a>
-      <p className="text-gray-600 dark:text-gray-400 my-2">{
-      desc.map((data, idx) => (
-        <React.Fragment key={idx}>
+      <div className="text-gray-600 dark:text-gray-400 my-2">
+      {desc.map((data, idx) => (
+        <div key={idx} className="mb-0.5">
           {data}
-          <br />
-        </React.Fragment>
+        </div>
       ))}
-      </p>
+      </div>
     </div>
   );
 };

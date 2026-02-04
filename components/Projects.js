@@ -28,18 +28,17 @@ export default function Projects() {
 
 const ProjectCard = ({ title, link, description, number }) => {
   return (
-    <div className="border-sky-500 dark:border-sky-500 border-l-[4px] shadow-slate-300 dark:shadow-slate-800 p-4 rounded-md shadow-xl dark:shadow-xl">
+    <div className="border-sky-500 dark:border-sky-500 border-l-[4px] shadow-slate-300 dark:shadow-slate-800 p-5 rounded-md shadow-xl dark:shadow-xl">
       <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
         {title}
       </h1>
-      <p className="text-base font-normal my-4 text-gray-500">
+      <div className="text-base font-normal my-4 text-gray-500">
         {description.map((data, idx) => (
-          <React.Fragment key={idx}>
+          <div key={idx} className="mb-0.5">
             {data}
-            <br />
-          </React.Fragment>
+          </div>
         ))}
-      </p>
+      </div>
       <a
         href={link}
         className="font-semibold group flex flex-row space-x-2 w-full items-center"
